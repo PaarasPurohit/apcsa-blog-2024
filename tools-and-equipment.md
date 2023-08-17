@@ -8,7 +8,7 @@ course: APCSA
 # Tools & Equipment
 > Blogging about my installation adventures
 
-### Computer, Check
+### Computer, Check!
 
 When I first came to Del Norte, I wasn't used to the norm of bringing a personal laptop to school to use for coding. However, becoming used to it made it easier to code as well as store my code in places I could access easy.
 
