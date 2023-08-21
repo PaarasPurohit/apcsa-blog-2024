@@ -3,9 +3,9 @@ layout: post
 title: Tools & Equipment Blog
 units: "0"
 course: APCSA
+permalink: /tools-and-equipment
 ---
 
-# Tools & Equipment
 > Blogging about my installation adventures
 
 ### Computer, Check!

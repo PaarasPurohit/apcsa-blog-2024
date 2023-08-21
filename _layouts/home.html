@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+{%- include head.html -%}
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      {%- include header.html -%}
+    </header>
+
+
+    <section>
+      <h1>My Blog Posts</h1>
+
+      {% for post in site.posts %}
+        <h2><a href="{{ post.permalink | relative_url }}">{{ post.title }}</a></h2>
+      {% endfor %}
+    </section>
+
+  </div>
+  
+</body>
+
+</html>
