@@ -9,18 +9,17 @@ layout: default
 
   {{ content | markdownify }}
 
-
   {% if site.paginate %}
     {% assign rawposts = paginator.posts %}
   {% else %}
-    {% assign rawposts = site.posts %}
+    {% assign rawposts = site.posts | concat: site.notebooks %}
   {% endif %}
 
   <!-- Hide posts if front matter flag hide:true -->
   {% assign posts = ''|split:'' %}
   {% for post in rawposts %}
     {% if post.hide != true %}
-      {% assign posts = posts|push:post%}
+      {% assign posts = posts|push:post %}
     {% endif %}
   {% endfor %}
 
@@ -29,7 +28,6 @@ layout: default
   {% assign sticky_posts = ''|split:'' %}
   {% assign non_sticky_posts = '' | split:'' %}
 
- 
   {% for gp in grouped_posts %}
     {%- if gp.name == "" -%}
       {% assign non_sticky_posts = gp.items | sort: "date" | reverse %}
@@ -50,7 +48,11 @@ layout: default
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
         <li>
-        {%- include post_list.html -%}
+          {%- if post.path contains "/_notebooks" -%}
+            {%- include notebook_list.html -%}
+          {%- else -%}
+            {%- include post_list.html -%}
+          {%- endif -%}
         </li>
       {%- endfor -%}
     </ul>
@@ -72,7 +74,5 @@ layout: default
         </ul>
       </div>
     {%- endif %}
-
   {%- endif -%}
-
 </div>
