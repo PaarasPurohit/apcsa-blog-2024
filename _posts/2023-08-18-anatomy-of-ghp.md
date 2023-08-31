@@ -1,8 +1,11 @@
 ---
+toc: true
+comments: false
 layout: post
-title: GitHub Pages Styling & Anatomy
-units: "0"
-course: APCSA
+title: Anatomy of GitHub Pages
+description: xx
+type: tangibles
+courses: { csa: {week: 0} }
 permalink: /anatomy-of-ghp
 ---
 

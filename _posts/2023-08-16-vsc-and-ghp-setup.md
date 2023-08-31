@@ -1,9 +1,12 @@
 ---
+toc: true
+comments: false
 layout: post
-title: Setup - VSCode & GitHub Pages
-units: "0"
-course: APCSA
-permalink: /vsc-and-ghp-setup
+title: VSCode & GitHub Pages
+description: xx
+type: tangibles
+courses: { csa: {week: 0} }
+permalink: /vsc-and-ghp
 ---
 
 > Setting up VSCode and GitHub Pages and blogging about it

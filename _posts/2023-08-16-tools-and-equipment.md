@@ -1,8 +1,11 @@
 ---
+toc: true
+comments: false
 layout: post
-title: Tools & Equipment Blog
-units: "0"
-course: APCSA
+title: Tools & Equipment
+description: xx
+type: tangibles
+courses: { csa: {week: 0} }
 permalink: /tools-and-equipment
 ---
 
@@ -15,7 +18,7 @@ When I first came to Del Norte, I wasn't used to the norm of bringing a personal
 ### Draw A Picture
 
 Below is a picture of the tools I notice and appreciate in APCSA so far:
-![/images/csa-tools.jpg]
+![https://www.canva.com/design/DAFskwUxoV4/tGqo_k81Md9ZE_TXAibF6Q/view?utm_content=DAFskwUxoV4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink]
 
 ### I LOVE My Tools
 

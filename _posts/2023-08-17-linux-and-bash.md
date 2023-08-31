@@ -1,8 +1,11 @@
 ---
+toc: true
+comments: false
 layout: post
-title: Linux Setup & Bash Checks
-units: "0"
-course: APCSA
+title: Linux & Bash
+description: xx
+type: tangibles
+courses: { csa: {week: 1} }
 permalink: /linux-and-bash
 ---
 
