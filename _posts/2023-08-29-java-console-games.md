@@ -175,3 +175,13 @@ public static void main(String[] args) {
     new ConsoleGame();
 }
 ```
+
+### Explanation
+
+1. Defined a class `ConsoleGame`, which contains the main logic for your games.
+2. In the constructor of `ConsoleGame`, I set up a loop that displays a menu and allows the user to select a game to play.
+3. The `menuString` method displays the game menu with options for the user.
+4. The `action` method takes the user's selection and calls the corresponding game method (e.g., `rps`, `horl`, or `ticTacToe`).
+5. The `horl` method implements the Higher or Lower game, where the user has to guess a random number.
+6. The `rps` method implements the Rock Paper Scissors game, allowing the user to play against the computer.
+7. The `ticTacToe` method implements the Tic Tac Toe game, allowing the user to play against a friend or the computer.

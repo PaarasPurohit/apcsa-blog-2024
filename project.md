@@ -1,0 +1,33 @@
+---
+layout: post
+title: Resources
+units: "none"
+course: APCSA
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <header>
+        <h1>Task Manager</h1>
+        <div class="nav-links">
+            <button id="all">All</button>
+            <button id="active">Active</button>
+            <button id="completed">Completed</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="task-input">
+            <input type="text" id="task" placeholder="Add a task">
+            <button id="addTask">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
