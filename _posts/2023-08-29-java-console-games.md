@@ -185,3 +185,32 @@ public static void main(String[] args) {
 5. The `horl` method implements the Higher or Lower game, where the user has to guess a random number.
 6. The `rps` method implements the Rock Paper Scissors game, allowing the user to play against the computer.
 7. The `ticTacToe` method implements the Tic Tac Toe game, allowing the user to play against a friend or the computer.
+
+### Comparison to APCSA Units
+
+Certainly! I'll explain how each of the mentioned programming concepts is used in the provided Java code:
+
+1. **Primitive Types**:
+   - Primitive types like `int` are used for storing integer values. For example, `int choice` is used to store the user's menu choice.
+
+2. **Objects**:
+   - Objects of classes like `Scanner` and `ConsoleGame` are created and used in the code. `Scanner sc` and `Scanner scHL` are instances of the `Scanner` class. `ConsoleGame` is the class defined to encapsulate the game logic, and objects of this class are created using `new ConsoleGame()`.
+
+3. **Boolean Expressions**:
+   - Boolean expressions are used for conditional logic and control flow. For instance, `while (!quit)` and `if (guess == randomG)` are examples of boolean expressions that control loops and conditionally execute code.
+
+4. **If Statements**:
+   - `if`, `else if`, and `else` statements are used for making decisions based on conditions. For example, in the Rock Paper Scissors game, `if (userChoice.equals("r"))` is used to check the user's choice.
+
+5. **Iteration**:
+   - Iteration is achieved using loops like `while` and `for`. For instance, the `while` loop is used for menu selection and in the Rock Paper Scissors game. The `for` loop is used in the Higher or Lower game to allow the user three guesses.
+
+6. **Classes**:
+   - The code defines a class named `ConsoleGame`, which encapsulates the game logic. It contains instance variables, methods, and a constructor.
+
+7. **Arrays**:
+   - Arrays are used to represent the tic-tac-toe board. For example, `String[] board` is an array that holds the state of the tic-tac-toe board.
+
+### Why Is This Important?
+
+This organization and connection to CollegeBoard's units are important. Studying for the AP exam includes evaluating how the content relates to the real world, in this case, our Java project.
