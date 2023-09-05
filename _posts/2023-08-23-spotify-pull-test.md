@@ -5,7 +5,7 @@ layout: post
 title: Spotify Bracket
 description: The basis of what our project will look like
 type: tangibles
-courses: { csa: {week: 1} }
+courses: { csa: {week: 3} }
 permalink: /spotify-bracket
 ---
 

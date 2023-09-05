@@ -5,7 +5,7 @@ layout: post
 title: Game of Snake
 description: xx
 type: hacks
-courses: { csa: {week: 1} }
+courses: { csa: {week: 2} }
 permalink: /game-of-life
 ---
 

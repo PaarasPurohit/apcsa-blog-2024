@@ -5,7 +5,7 @@ layout: post
 title: Java Console Games
 description: Making the code for "Rock, Paper, Scissors" much easier to understand using OOP
 type: tangibles
-courses: { csa: {week: 1} }
+courses: { csa: {week: 2} }
 permalink: /java-games
 ---
 

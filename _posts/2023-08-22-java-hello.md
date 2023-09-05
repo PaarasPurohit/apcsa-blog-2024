@@ -5,7 +5,7 @@ layout: post
 title: Java's Hello
 description: The very first Java hacks of APCSA
 type: tangibles
-courses: { csa: {week: 1} }
+courses: { csa: {week: 2} }
 permalink: /java-hello
 ---
 
