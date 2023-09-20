@@ -163,6 +163,43 @@ AppointmentBookTester.main(null);
     Appointment 1 (start period 3, end period 6, duration 30): false
     Appointment 2 (start period 5, end period 7, duration 45): false
 
+### The Actual Solution:
+
+```java
+public int findFreeBlock(int period, int duration)
+{
+    int freeInARow = 0;
+    
+    for(int minute = 0; minute <= 59; minute++)
+    {
+        if(isMinuteFree(period, minute))
+            freeInARow++;
+        else
+            freeInARow = 0;
+        
+        if(freeInARow == duration)
+            return minute - freeInARow + 1;
+    }
+    
+    return -1;
+}
+public boolean makeAppointment(int startPeriod, int endPeriod,
+                               int duration)
+{
+    for(int period = startPeriod; period <= endPeriod; period++)
+    {
+        int startMinute = findFreeBlock(period, duration);
+        
+        if(startMinute != -1)
+        {
+            reserveBlock(period, startMinute, duration);
+            return true;
+        }
+    }
+    
+    return false;
+}
+```
 
 ### Regarding Array/ArrayList/2D Arrays
 
