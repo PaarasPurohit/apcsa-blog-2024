@@ -9,6 +9,18 @@ courses: { csa: {week: 4} }
 permalink: /frq-mini-lab
 ---
 
+### Topic: Writing Classes
+
+### Common Queries
+
+- Defining Classes
+- Constructor Methods
+- Object-Oriented Programming
+- Encapsulation
+- Inheritance
+- Polymorphism
+- 
+
 This question involves the `AppointmentBook` class, which provides methods for students to schedule appointments with their teacher. Appointments can be scheduled during one of eight class periods during the school day, numbered 1 through 8. A requested appointment has a duration, which is the number of minutes the appointment will last. The 60 minutes within a period are numbered 0 through 59. In order for an appointment to be scheduled, the teacher must have a block of consecutive, available munites that contains at least the requested number of minutes in a requested period. Scheduled appointments must start and end within the same period.
 
 The `AppointmentBook` class contains two helper methods, `isMinuteFree` and `reserveBlock`. You will write two additional methods of the `AppointmentBook` class.
