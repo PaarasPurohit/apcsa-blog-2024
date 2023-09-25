@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: FRQ Crossover Grading
-description: xx
+description: Crossover grading for the IT Tech Support team.
 type: tangibles
 courses: { csa: {week: 5} }
 permalink: /frq-crossover-grading
@@ -36,7 +36,7 @@ Question Answered: AP Exam 2022 #1
  - 1/3 point for individual/team FRQ technical work; code quality and code runtime. 
  - 1/3 point for final review ticket with video summary
 
-Total Points: 1/1.
+Total Points: 0.95/1.
 
 ### Vishnu
 
@@ -59,7 +59,7 @@ Question Answered: AP Exam 2021 #4
  - 1/3 point for individual/team FRQ technical work; code quality and code runtime. 
  - 1/3 point for final review ticket with video summary
 
-Total Points: 1/1.
+Total Points: 0.95/1.
 
 ### Akshat
 
@@ -72,7 +72,7 @@ Common Questions:
 - Super-classes
 - Constructor methods
 
-Question Answered: AP Exam 202_ #_
+Question Answered: AP Exam 2022 #2
 
 Objective: Write the `getEdition()` and `getTitle()` and `canSubstituteFor()` method.
 
@@ -80,4 +80,25 @@ Objective: Write the `getEdition()` and `getTitle()` and `canSubstituteFor()` me
  - 1/3 point for individual/team FRQ technical work; code quality and code runtime. 
  - 1/3 point for final review ticket with video summary
 
-Total Points: 1/1.
+Total Points: 0.95/1.
+
+### Vaardan
+
+Topic: Arrays
+
+Common Questions:
+
+- Array Inititnalsation and Manipulation
+- ArrayList Algortims
+- Array & ArrayList Traversals
+- Constructor methods
+
+Question Answered: AP Exam 2023 #3
+
+Objective: Write the `cleanData` method that will traverse through a temperatures array, then
+
+ - 1/3 point for collaboration evidence with crossover team
+ - 1/3 point for individual/team FRQ technical work; code quality and code runtime. 
+ - 1/3 point for final review ticket with video summary
+
+Total Points: 0.95/1.

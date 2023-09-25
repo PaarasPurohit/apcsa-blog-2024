@@ -9,17 +9,16 @@ courses: { csa: {week: 4} }
 permalink: /frq-mini-lab
 ---
 
-### Topic: Writing Classes
+### Topic: Methods and Control Structures
 
 ### Common Queries
 
-- Defining Classes
-- Constructor Methods
-- Object-Oriented Programming
-- Encapsulation
-- Inheritance
-- Polymorphism
-- 
+- Defining methods
+- Method parameters
+- Conditional statements
+- For/While loops
+- Iteration
+- Method Implementation
 
 This question involves the `AppointmentBook` class, which provides methods for students to schedule appointments with their teacher. Appointments can be scheduled during one of eight class periods during the school day, numbered 1 through 8. A requested appointment has a duration, which is the number of minutes the appointment will last. The 60 minutes within a period are numbered 0 through 59. In order for an appointment to be scheduled, the teacher must have a block of consecutive, available munites that contains at least the requested number of minutes in a requested period. Scheduled appointments must start and end within the same period.
 
@@ -314,3 +313,85 @@ ArrayManipulation.main(null);
     [6, 5, 4, 3, 2, 1]
     [honeydew, fig, date, cherry, banana, apple]
 
+### Feedback on My FRQ
+
+### Feedback on Rohin's FRQ.
+
+From the crossover team, Rohin did the same type of FRQ as me, Methods & Control Structures. Here is his code:
+
+```java
+  public int getScore() {
+
+    int multiplier = isBonus() ? 3 : 1;
+
+    if (levelOne.goalReached() && levelTwo.goalReached()) {
+      if (levelThree.goalReached()) 
+        return (levelOne.getPoints()+levelTwo.getPoints()+levelThree.getPoints())*multiplier;
+      else 
+        return (levelOne.getPoints()+levelTwo.getPoints())*multiplier;
+    } else {
+      return levelOne.getPoints()*multiplier; 
+    }
+  }
+
+  public int playManyTimes(int num, boolean[] isBonuses) {
+    ArrayList<Integer> scores = new ArrayList<Integer>();
+    
+    for (int i = 0; i < num; i++) {
+      this.play(isBonuses[i]);
+      scores.add(this.getScore());
+      System.out.println(scores.get(i));
+    }
+
+    int largestScore = scores.get(0);
+
+    for (int i = 0; i < scores.size(); i++) {
+      if (scores.get(i) > largestScore) largestScore = scores.get(i);
+    }
+
+    return largestScore;
+  }
+```
+
+And here is the canonical code from CollegeBoard:
+
+```java
+public int getScore()
+{
+ int score = 0;
+ if (levelOne.goalReached())
+ {
+ score = levelOne.getPoints();
+ if (levelTwo.goalReached())
+ {
+ score += levelTwo.getPoints();
+ if (levelThree.goalReached())
+ {
+ score += levelThree.getPoints();
+ }
+ }
+ }
+ if (isBonus())
+ {
+ score *= 3;
+ }
+ return score;
+}
+4 points 
+(b) public int playManyTimes(int num)
+{
+ int max = 0;
+ for (int i = 0; i < num; i++)
+ {
+ play();
+ int score = getScore();
+ if (score > max)
+ {
+ max = score;
+ }
+ }
+ return max;
+} 
+```
+
+The first thing Rohin could've improved on was the `getScore()` method. Instead of using the concept of a multi-conditional statement, he could've used the concept of nested conditionals to make the code more efficient. Another thing he could've done different is in the `playManyTimes()` method, where he could've avoided the use of ArrayLists altogether and instead used one loop as shown in the CollegeBoard code. Other than that, the code is great, and I have no additional feedback. I like how the concepts of methods and control structures as well as the common queries are represented in the overall code and the presentation.
