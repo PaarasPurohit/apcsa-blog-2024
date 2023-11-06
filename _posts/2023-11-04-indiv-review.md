@@ -5,7 +5,7 @@ layout: post
 title: Paaras Purohit - Individual Review
 description: Recap of key events and learnings from developing Team Premium's Astronomer
 type: tangibles
-courses: { compsci: {week: 6} }
+courses: { csa: {week: 6} }
 ---
 
 # Issue Recap
